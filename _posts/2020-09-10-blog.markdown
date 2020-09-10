@@ -8,13 +8,15 @@ tag:
 - pytest
 - mock
 - python
-- unitests
+- unittests
 category: python
 author: priyankajayaswal
 description: Mocker patch for mocking in python
 ---
 
-This mini blog would talk about using mocker patch from pytest to mock variables in object creation flow . This patching can be applied to a variable which is used somewhere deep in the codebase with no direct access for mock using conventional techniques. (Conventional techniques meant directly passing an altered/mocked variable). A scenario:
+This mini blog would talk about using mocker patch from pytest to mock variables in object creation flow . This patching can be applied to a variable which is used somewhere deep in the codebase with no direct access for mock using conventional techniques. (Conventional techniques meant directly passing an altered/mocked variable).
+
+A scenario:
 
 For creation of app object we use config. This config object is created  in the codeflow somewhere inaccessible for direct mocking eg.
 
@@ -38,4 +40,4 @@ Here comes, mocker.patch to rescue:
 
 The mocked config values would be used instead.
 
-\thanks
+\cheers
