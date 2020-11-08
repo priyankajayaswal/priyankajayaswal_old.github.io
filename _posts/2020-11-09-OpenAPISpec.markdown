@@ -1,5 +1,5 @@
 ---
-title: "SDE's visual companion to demystify system design"
+title: "OpenAPISpec + Productivity"
 layout: post
 date: 2020-09-10 23:02
 image: /assets/images/markdown.jpg
