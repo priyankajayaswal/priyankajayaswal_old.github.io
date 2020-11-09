@@ -2,8 +2,10 @@
 title: "OpenAPISpec + Productivity"
 layout: post
 date: 2020-09-10 23:02
-image: /assets/images/markdown.jpg
+image: \assets\images\blog\2020-11-09-open-api-spec.markdown.PNG
 headerImage: false
+projects: true
+hidden: false # don't count this post in blog pagination
 tag:
 - CSharp
 - Swagger

@@ -4,6 +4,8 @@ layout: post
 date: 2020-09-10 22:52
 image: /assets/images/markdown.jpg
 headerImage: false
+projects: true
+hidden: false # don't count this post in blog pagination
 tag:
 - pytest
 - mock
